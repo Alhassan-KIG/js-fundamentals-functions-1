@@ -22,13 +22,22 @@ function sayHelloManyTimes(name, times) {
 // TODO: Add and update code here to make the tests pass
 
 // 1. Set this variable to 'Hello' by calling the sayHello function
-const hello = ''
+const hello = function () {
+  console.log('Hello')
+}
+hello()
 
 // 2. Set this variable variable to 'Hello Jane' calling the sayHelloTo function
-const helloToJane = ''
+const helloToJane = function () {
+  console.log('Hello Jane!')
+}
+helloToJane()
 
 // 3. Set this variable to 'Hello Bob! Hello Bob! Hello Bob!' calling the sayHelloManyTimes function
-const helloToBob3Times = ''
+const helloToBob3Times = function () {
+  console.log('Hello Bob!Hello Bob!Hello Bob!')
+}
+helloToBob3Times()
 
 // do not edit below this line
 module.exports = {
